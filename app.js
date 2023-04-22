@@ -19,6 +19,7 @@ usercard.appendChild(p)
 btn1.addEventListener("click", function(){
     p.innerText = '1111'
     usercard.appendChild(p)
+    window.location='http://gcbot00.github.io/test';
 });
 
 btn2.addEventListener("click", function(){
