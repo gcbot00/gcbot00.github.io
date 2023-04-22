@@ -45,15 +45,26 @@ body {
 
 .page-img {
     position: relative;
-    text-align: center;
+    left: 110px;
     width: 150px;
+}
+
+.heading-sa {
+    position: relative;
+    top: -20px;
     left: 100px;
 }
 
-.heading {
+.heading-ttp {
     position: relative;
     top: -20px;
-    left: 65px;
+    left: 40px;
+}
+
+.heading-pg {
+    position: relative;
+    top: -20px;
+    left: 70px;
 }
 
 .text {
@@ -68,3 +79,16 @@ body {
     top: -46px;
     line-height: 10px;
 }
+
+.ps {
+    position: relative;
+    text-align: center;
+    top: -40px;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
