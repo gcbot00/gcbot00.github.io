@@ -10,15 +10,15 @@ let btn1 = document.getElementById('premium-gold');
 let btn2 = document.getElementById('sliv-army');
 let btn3 = document.getElementById('tiktok-premium');
 
+let usercard = document.getElementById("usercard")
+let p = document.createElement("p")
+// p.innerText = `${tg.initDataUnsafe.first_name}`
+p.innerText = `${item}`
+usercard.appendChild(p)
+
 btn1.addEventListener("click", function(){
-    if (tg.MainButton.isVisible){
-        tg.MainButton.hide()
-    }
-    else {
-        tg.MainButton.setText("Вы выбрали а")
-        item = "1"
-        MainButton.show()
-    }
+    p.innerText = '1111'
+    usercard.appendChild(p)
 });
 
 btn2.addEventListener("click", function(){
@@ -47,8 +47,3 @@ Telegram.WebApp.onEvent("mainButtonClicked", function(){
     tg.sendData(item);
 })
 
-let usercard = document.getElementById("usercard")
-let p = document.createElement("p")
-// p.innerText = `${tg.initDataUnsafe.first_name}`
-p.innerText = `${item}`
-usercard.appendChild(p)
