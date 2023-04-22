@@ -9,6 +9,8 @@ body {
 
 .container {
     max-width: 390px;
+    position: relative;
+    top: 15px;
 }
 
 .inner {
@@ -41,22 +43,28 @@ body {
     text-align: center;
 }
 
-.modal {
-    position: fixed;
-    left: 0;
-    top: 75px;
-    height: 400px;
-    width: 400px;
-    
-    background-color: rgb(0, 0, 0, .3);
-    display: grid;
-    align-items: center;
-    justify-content: center;
+.page-img {
+    position: relative;
+    text-align: center;
+    width: 150px;
+    left: 100px;
 }
 
-.modal_window {
-    max-width: 400px;
-    height: 600px;
-    padding: 30px;
-    background-color: #fff;
+.heading {
+    position: relative;
+    top: -20px;
+    left: 65px;
+}
+
+.text {
+    position: relative;
+    left: 15px;
+    top: -25px
+}
+
+.content {
+    position: relative;
+    left: 35px;
+    top: -30px;
+    line-height: 10px;
 }
