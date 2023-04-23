@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    max-width: 400px;
+    max-width: 350px;
     position: relative;
     top: 15px;
 }
@@ -83,7 +83,7 @@ body {
 .ps {
     position: relative;
     text-align: center;
-    top: -40px;
+    top: -120px;
 }
 
 a {
@@ -107,7 +107,7 @@ a {
 .month {
     position: relative;
     left: 215px;
-    top: -112px;
+    top: -115px;
 }
 
 .month-text{
