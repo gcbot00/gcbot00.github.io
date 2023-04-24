@@ -5,6 +5,7 @@ body {
     color: var(--tg-theme-text-color);
     background: var(--tg-theme-bg-color);
     /* background-color: aqua; */
+    width: 350px;
 }
 
 .container {
@@ -114,4 +115,29 @@ a {
     position: relative;
     left: 70px;
     top: -15px;
+}
+
+.forever-big {
+    position: relative;
+    left: 30px;
+    top: -20px;
+}
+
+.btn-big {
+    display: inline-block;
+    padding: 12px 65px;
+    border: none;
+    background: rgb(24, 248, 155);
+    border-radius: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+
+}
+
+.forever-big-text{
+    position: relative;
+    left: 30px;
+    top: -20px;
 }
