@@ -73,7 +73,9 @@ body {
 .text {
     position: relative;
     left: 15px;
-    top: -40px
+    top: -40px;
+    width: 330px;
+    /* background-color: blueviolet; */
 }
 
 .content {
@@ -89,6 +91,7 @@ body {
     position: relative;
     text-align: center;
     top: -120px;
+    /* background-color: blueviolet; */
 }
 
 .button {
