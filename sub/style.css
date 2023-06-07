@@ -74,15 +74,11 @@ a:hover {
 }
 
 .buy {
-    position: relative;
-    left: 15px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 250px 250px 200px;
+    text-align: center;
 }
 
 .buy-text {
     position: relative;
-    left: 63px;
-    top: -15px;
+    text-align: center;
+    top: -10px;
 }
