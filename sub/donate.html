@@ -24,6 +24,14 @@
     </div>
 
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    <script src="../app.js"></script>
+    <script>
+        let tg = window.Telegram.WebApp;
+        tg.expand();
+        let donate = document.getElementById('donate');
+        donate.addEventListener("click", () => {
+            tg.sendData('donate')
+            tg.close()
+        });
+    </script>
 </body>
 </html>

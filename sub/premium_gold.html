@@ -37,6 +37,21 @@
     </div>
 
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    <script src="../app.js"></script>
+    <script>
+        let tg = window.Telegram.WebApp;
+        tg.expand();
+        let pg_forever = document.getElementById("buy-pg-forever");
+        let pg_month = document.getElementById("buy-pg-month");
+
+        pg_forever.addEventListener("click", () => {
+            tg.sendData('premium-gold-forever')
+            tg.close()
+        });
+
+        pg_month.addEventListener("click", () => {
+            tg.sendData('premium-gold-month')
+            tg.close()
+        });
+    </script>
 </body>
 </html>

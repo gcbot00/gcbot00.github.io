@@ -23,11 +23,18 @@
             <p>💢 Обновления каждый день</p>
         </div>
         <div class="buy">
-            <button class="btn" id="buy-ttp">Купить навсегда за 349₽</button>
+            <button class="btn" id="ttp">Купить навсегда за 349₽</button>
         </div>
     </div>
-
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    <script src="../app.js"></script>
+    <script>
+        let tg = window.Telegram.WebApp;
+        tg.expand();
+        let ttp = document.getElementById("ttp");
+        ttp.addEventListener("click", () => {
+            tg.sendData('tiktok-premium')
+            tg.close()
+        });
+    </script>
 </body>
 </html>
